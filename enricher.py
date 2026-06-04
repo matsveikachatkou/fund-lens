@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 
 BENCHMARK_PROXIES = {
     "stoxx europe small": "EXSH.DE",
+    "eurozone small": "IESE.AS",
     "msci europe small": "IEUS",
     "msci europe": "IMEU.AS",
     "stoxx europe 600": "EXSA.DE",
@@ -12,6 +13,9 @@ BENCHMARK_PROXIES = {
     "mdax": "EXS3.DE",
     "sdax": "EXS3.DE",
     "mdax sdax": "EXS3.DE",
+    "clo": "IS0R.DE",        # iShares Euro Ultrashort Bond — money market proxy
+    "money market": "IS0R.DE",
+    "credit": "IEAC.AS",     # iShares Euro Corporate Bond
     "default": "EXSH.DE"
 }
 
